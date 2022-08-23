@@ -433,7 +433,7 @@
 		// Events.
 			$this
 				.on('submit', function() {
-
+					alert("test")
 					$this.find('input[type=text],input[type=password],textarea')
 						.each(function(event) {
 
@@ -443,12 +443,10 @@
 								i.attr('name', '');
 
 							if (i.val() == i.attr('placeholder')) {
-
 								i.removeClass('polyfill-placeholder');
 								i.val('');
 
 							}
-
 						});
 
 				})
