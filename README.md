@@ -1,0 +1,1 @@
+# devtyp.github.io
